@@ -1,0 +1,1 @@
+runas.exe /netonly /user:%UPN% "mmc %SystemRoot%\system32\dsa.msc /domain=%domain%"
