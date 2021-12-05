@@ -9,3 +9,5 @@ New-ADUser -Name $uname `
 -SamAccountName $_.samAccountName `
 -AccountPassword (ConvertTo-SecureString $_.Password -AsPlainText -force) -Enabled $true
 }
+
+#See create_new_ad_users.csv in this repository for the csv used. 
